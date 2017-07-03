@@ -5,12 +5,17 @@
 ![alt text](http://i.imgur.com/wfSPEyrr.png "Logo Title Text 1")
 
 
+
 ## Инструкция по установке:
 
   * Склонировать репозиторий 
 
-  * Перейти в папку проекта `cd ./LibraryFund && npm i `
+  * Перейти в папку проектая, также поставить npm пакеты  `cd ./LibraryFund && npm i `
 
   * Запуск dev версии проекта  `npm start  // localhost:3000`
 
   * Собираем проект для продакшена  `npm run build `
+
+
+
+  Стек фронт-енда React/Redux/ES6 ну и заглушка в LocalStorage вместо API
