@@ -1,2 +1,6 @@
+import md5 from 'blueimp-md5'
 
-export const getRefValue = (thing) => thing.props.data[thing.refs.type.value].concat().slice(-1)[0].id
+export const getRefValue = (thing, key) => thing.refs[key].value
+
+
+export const getRandomId = (name) => md5(name, Math.random())

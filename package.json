@@ -4,6 +4,7 @@
   "homepage": "https://baukaalm.github.io/LibraryFund",
   "private": false,
   "dependencies": {
+    "blueimp-md5": "^2.7.0",
     "react": "^15.6.1",
     "react-dom": "^15.6.1",
     "react-modal": "^2.2.1",
