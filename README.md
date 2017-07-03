@@ -1,10 +1,8 @@
-This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 
-# Библиотечный фонд
+# Библиотечный фонд(тестовое для инессофт)
 
-![](http://imgur.com/wfSPEyr)
-
+![alt text](http://i.imgur.com/wfSPEyrr.png "Logo Title Text 1")
 
 
 ## Инструкция по установке:
