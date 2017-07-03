@@ -135,7 +135,7 @@ const PRODUCTS = () => {
         publisher: 'Default pulisher'
       }, {
         id: 2,
-        name: 'Тестовая Буклет 2',
+        name: 'Тестовый Буклет 2',
         year: 2011,
         count: 25,
         publisher: 'Default pulisher'

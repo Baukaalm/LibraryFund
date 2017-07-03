@@ -60,6 +60,12 @@ html, body {
   background: #fafafa;
   padding-top: 184px;
 }
+.list__notfound {
+  color: #aaa;
+  text-align: center;
+  font-size: 21px;
+  margin-top: 150px;
+}
 
 .menu {
   width: 10rem;
@@ -125,6 +131,8 @@ html, body {
   font-weight: 300;
   box-shadow: 0 0 1px rgba(0, 0, 0, .2);
   border-radius: 3px;
+  background-repeat: no-repeat;
+  background-position: center center;
 }
 
 

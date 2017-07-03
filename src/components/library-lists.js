@@ -1,17 +1,5 @@
 import React from "react";
-
-const checkCategory = category => {
-  switch (category) {
-    case "Books":
-      return "книг";
-    case "Journals":
-      return "журналов";
-    case "Booklets":
-      return "буклетов";
-    default:
-      return category;
-  }
-};
+import { checkCategory } from "../helpers";
 
 const LibraryLists = ({ lists, category, onRemove }) => {
   const categoryTitle = checkCategory(category);
@@ -26,13 +14,20 @@ const LibraryLists = ({ lists, category, onRemove }) => {
         ? lists[category].map((list, i) =>
             <div className="list__item" key={list.id}>
               <div className="list__name">
-                <span className="bordeless">«{list.name}»</span>
+                <span className="bordeless">
+                  «{list.name}»
+                </span>
               </div>
-              <div className="list__year">{list.year}г</div>
+              <div className="list__year">
+                {list.year}г
+              </div>
               <div className="list__count">
-                {list.count}<span>cтраниц</span>
+                {list.count}
+                <span>cтраниц</span>
               </div>
-              <div className="list__publisher">{list.publisher}</div>
+              <div className="list__publisher">
+                {list.publisher}
+              </div>
               <div
                 className="list__delete"
                 onClick={() => onRemove(list.id, category)}
@@ -41,7 +36,9 @@ const LibraryLists = ({ lists, category, onRemove }) => {
               </div>
             </div>
           )
-        : <div className="list__notfound">Публикаций нет</div>}
+        : <div className="list__notfound">
+            Публикации отсутствуют, добавьте новую публикацию
+          </div>}
     </div>
   );
 };
