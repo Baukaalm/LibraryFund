@@ -3,7 +3,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 # Библиотечный фонд
 
-![](http://radikal.ru/lfp/s019.radikal.ru/i615/1707/b7/431671475edft.jpg)
+![](http://imgur.com/wfSPEyr)
 
 
 
