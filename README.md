@@ -12,10 +12,10 @@
 
   * Перейти в папку проектая, также поставить npm пакеты  `cd ./LibraryFund && npm i `
 
-  * Запуск dev версии проекта  `npm start  // localhost:3000`
+  * Запуск dev версию проекта  `npm start  // localhost:3000`
 
   * Собираем проект для продакшена  `npm run build `
 
 
 
-  Стек фронт-енда React/Redux/ES6 ну и заглушка в LocalStorage вместо API
+  Стек фронт-енда React/Redux/ES6, бойлерплейт create-reacte-app, ну и заглушка в LocalStorage вместо API
